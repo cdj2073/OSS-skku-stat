@@ -2,7 +2,7 @@
 const lib = require("./lib");
 
 if (process.argv.length <= 3) {
-    console.log("Insufficient parameters!");
+    console.log("Insufficient parameter!");
     process.exit(1);
 }
 

@@ -9,7 +9,7 @@ test("Insufficient params", () => {
     });
     main.stdout.on("end", () => {
         const output = outputs.join("").trim();
-        expect(output).toBe("Insufficient parameters!");
+        expect(output).toBe("Insufficient parameter!");
     });
 });
 
