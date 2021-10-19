@@ -1,0 +1,25 @@
+{
+  "name": "OSS-skku-stat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdj2073/OSS-skku-stat.git"
+  },
+  "bin": {
+    "stat": "./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdj2073/OSS-skku-stat/issues"
+  },
+  "homepage": "https://github.com/cdj2073/OSS-skku-stat#readme",
+  "devDependencies": {
+    "jest": "^27.3.0"
+  }
+}
